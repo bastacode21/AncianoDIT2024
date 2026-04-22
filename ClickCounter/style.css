@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: system-ui;
+  background: #f06d06;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+button {
+  font-size: 100px;
+  border-radius: 30px;
+  color: blue;
+
+  &:hover {
+    padding: 10px;
+    background-color: red;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+}
